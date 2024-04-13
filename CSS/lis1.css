@@ -1,11 +1,24 @@
-img{
+.container{
     text-align: center;
-    display: block;
 }
 body{
     background-color:#EBEFF2;
+    text-align: justify;
+    background-attachment: scroll;
+    line-height: 200%;
+}
+.imgesquerda{
+    position: fixed;
+    bottom: 0;
+    right: 0;
 }
 a{
     text-decoration-style: solid;
     color:brown;
+}
+ul{
+    list-style: circle;
+}
+.topicos{
+    text-align: center;
 }

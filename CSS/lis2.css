@@ -1,8 +1,19 @@
 body{
     background-color: #EBEFF2;
+    background-attachment: scroll;
+    line-height: 200%;
 }
-
+.container{
+    text-align: center;
+    margin-top: -70px;
+}
 a{
     text-decoration-style: solid;
     color:brown;
+}
+ul{
+    list-style: circle;
+}
+.topicos{
+    text-align: center;
 }

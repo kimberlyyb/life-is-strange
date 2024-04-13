@@ -1,3 +1,8 @@
+h1{
+    text-align: center;
+    margin-top: 50px;
+}
+
 body{
     background-color: #EBEFF2;
 }
@@ -6,3 +11,4 @@ a{
     text-decoration-style: solid;
     color:brown;
 }
+
