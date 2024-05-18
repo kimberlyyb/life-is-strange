@@ -68,3 +68,42 @@ main {
     line-height: 1.6em;
     margin-top: 20px;
 }
+.episodes {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 100%;
+    max-width: 800px; /* Limit the width of the episodes section */
+    margin: 0 auto; /* Center align the episodes section */
+    padding: 20px;
+}
+
+.episode {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.episode img {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.episode-info {
+    max-width: 510px;
+}
+
+.episode-info h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.episode-info p {
+    font-size: 1em;
+    line-height: 1.6em;
+}
