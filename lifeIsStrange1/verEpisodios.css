@@ -46,7 +46,7 @@ main {
     padding: 20px;
 }
 
-.content {
+.container {
     background-color: white;
     padding: 20px;
     border-radius: 8px;
@@ -56,29 +56,29 @@ main {
     margin-bottom: 40px;
 }
 
-.content img {
+.container img {
     width: 100%;
     height: auto;
     max-width: 800px;
     border-radius: 8px;
 }
 
-.content p {
+.container p {
     font-size: 1.2em;
     line-height: 1.6em;
     margin-top: 20px;
 }
-.episodes {
+.episodios {
     display: flex;
     flex-direction: column;
     gap: 40px;
     width: 100%;
-    max-width: 800px; /* Limit the width of the episodes section */
-    margin: 0 auto; /* Center align the episodes section */
+    max-width: 800px; 
+    margin: 0 auto; 
     padding: 20px;
 }
 
-.episode {
+.episodio {
     display: flex;
     align-items: flex-start;
     gap: 20px;
@@ -88,22 +88,22 @@ main {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.episode img {
+.episodio img {
     width: 150px;
     height: auto;
     border-radius: 8px;
 }
 
-.episode-info {
+.episodio-info {
     max-width: 510px;
 }
 
-.episode-info h2 {
+.episodio-info h2 {
     font-size: 1.5em;
     margin-bottom: 10px;
 }
 
-.episode-info p {
+.episodio-info p {
     font-size: 1em;
     line-height: 1.6em;
 }

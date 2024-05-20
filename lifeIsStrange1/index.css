@@ -47,7 +47,7 @@ main {
     padding: 20px;
 }
 
-.content {
+.container {
     background-color: white;
     padding: 20px;
     border-radius: 8px;
@@ -57,28 +57,28 @@ main {
     margin-bottom: 40px;
 }
 
-.content img {
+.container img {
     width: 100%;
     height: auto;
     max-width: 800px;
     border-radius: 8px;
 }
 
-.content p {
+.container p {
     font-size: 1.2em;
     line-height: 1.6em;
     margin-top: 20px;
 }
 
-.additional-content {
+.container-adicional {
     display: flex;
     flex-direction: column;
     gap: 40px;
     width: 100%;
-    align-items: center; /* Center align the content blocks */
+    align-items: center; 
 }
 
-.content-block {
+.container-block {
     background-color: white;
     padding: 20px;
     border-radius: 8px;
@@ -86,27 +86,27 @@ main {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-width: 800px; /* Limit the width of the content block */
+    max-width: 800px; 
     width: 100%;
 }
 
-.text-content {
+.texto-container {
     max-width: 446px;
     margin-right: 20px;
 }
 
-.content-block h2 {
+.container-block h2 {
     font-size: 2em;
     margin: 0 0 20px 0;
 }
 
-.content-block p {
+.container-block p {
     font-size: 1em;
     line-height: 1.4em;
     margin: 0 0 20px 0;
 }
 
-.button {
+.botao {
     background-color: #333;
     color: white;
     border: none;
@@ -119,7 +119,7 @@ main {
     text-align: center;
 }
 
-.content-block img {
+.container-block img {
     width: 400px;
     height: auto;
     border-radius: 8px;

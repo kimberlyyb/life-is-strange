@@ -46,7 +46,7 @@ main {
     padding: 20px;
 }
 
-.content {
+.container {
     background-color: white;
     padding: 20px;
     border-radius: 8px;
@@ -56,29 +56,29 @@ main {
     margin-bottom: 40px;
 }
 
-.content img {
+.container img {
     width: 100%;
     height: auto;
     max-width: 800px;
     border-radius: 8px;
 }
 
-.content p {
+.container p {
     font-size: 1.2em;
     line-height: 1.6em;
     margin-top: 20px;
 }
-.characters {
+.personagens {
     display: flex;
     flex-direction: column;
     gap: 40px;
     width: 100%;
-    max-width: 800px; /* Limit the width of the character section */
-    margin: 0 auto; /* Center align the character section */
+    max-width: 800px; 
+    margin: 0 auto; 
     padding: 20px;
 }
 
-.character {
+.personagem {
     display: flex;
     align-items: flex-start;
     gap: 20px;
@@ -88,22 +88,22 @@ main {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.character img {
+.personagem img {
     width: 150px;
     height: auto;
     border-radius: 8px;
 }
 
-.character-info {
+.personagem-info {
     max-width: 510px;
 }
 
-.character-info h2 {
+.personagem-info h2 {
     font-size: 1.5em;
     margin-bottom: 10px;
 }
 
-.character-info p {
+.personagem-info p {
     font-size: 1em;
     line-height: 1.6em;
 }
